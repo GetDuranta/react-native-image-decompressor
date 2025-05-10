@@ -1,0 +1,17 @@
+{
+  "cxxNamespace": ["imagedecompressor"],
+  "ios": {
+    "iosModuleName": "ImageDecompressor"
+  },
+  "android": {
+    "androidNamespace": ["imagedecompressor"],
+    "androidCxxLibName": "imagedecompressor"
+  },
+  "autolinking": {
+    "ImageDecompressor": {
+      "swift": "ImageDecompressor",
+      "kotlin": "ImageDecompressor"
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
