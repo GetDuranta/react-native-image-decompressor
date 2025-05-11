@@ -11,12 +11,13 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => min_ios_version_supported }
-  s.source       = { :git => "https://github.com/Cyberax/react-native-image-decompressor.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/GetDuranta/react-native-image-decompressor.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,m,mm,swift}"
+  s.source_files = "ios/**/*.{h,m,mm,swift}", "cpp/**/*.{hpp,h,cpp}"
 
   load 'nitrogen/generated/ios/ImageDecompressor+autolinking.rb'
   add_nitrogen_files(s)
 
- install_modules_dependencies(s)
+  install_modules_dependencies(s)
+
 end

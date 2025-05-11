@@ -9,8 +9,10 @@
   },
   "autolinking": {
     "ImageDecompressor": {
-      "swift": "ImageDecompressor",
-      "kotlin": "ImageDecompressor"
+      "cpp": "ImageDecompressor"
+    },
+    "DelayedImage": {
+      "cpp": "DelayedImage"
     }
   },
   "ignorePaths": ["node_modules"]
