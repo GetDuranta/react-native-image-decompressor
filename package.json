@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-decompressor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PNG and JPG decompressor for React Native",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
